@@ -20,10 +20,12 @@ public class ControlFlowExercises {
 //            System.out.println("i is " + i);
 //        }
 
-        // no work
-        for (int i = 2; i <= 100; i*=i) {
-            System.out.println(i*i);
-        }
+        // can separate integers by underscores to make it easier to read
+        // kept outputting an endless loop because the number went out of
+        // the range of a int variable, need a long variable.
+//        for (long i = 2; i <= 1_000_000; i*=i) {
+//            System.out.println(i);
+//        }
 
         // Exercise 2
 //        for (int i = 1; i <= 100; i++) {
@@ -39,9 +41,23 @@ public class ControlFlowExercises {
 //        }
 
 //        // Exercise 3
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Enter a number:");
-//        int integer = scanner.nextInt();
+//        String choice = "Y";
+//        while (choice.equalsIgnoreCase("y")) {
+//            Scanner scanner = new Scanner(System.in);
+//            System.out.println("Enter a number:");
+//            int integer = scanner.nextInt();
+//            System.out.println("Here is your table!");
+//            System.out.println("number | squared | cubed");
+//            System.out.println("------ | ------- | -----");
+//            for (int i = 1; i <= integer; i++) {
+//                int squared = i * i;
+//                int cubed = squared * i;
+//                System.out.println(i + "       |" + squared + "         |  " + cubed);
+//            }
+//            System.out.println("Do you want to continue? [y/N]");
+//            scanner.nextLine();
+//            choice = scanner.nextLine();
+//        }
 //
 //
 //
