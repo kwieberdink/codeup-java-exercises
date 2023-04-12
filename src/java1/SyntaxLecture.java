@@ -1,3 +1,5 @@
+package java1;
+
 public class SyntaxLecture {
 
     public static void main(String[] args) {

@@ -1,10 +1,12 @@
+package java1;
+
 import java.util.Scanner;
 
 public class Bob {
 
     public static void main(String[] args) {
 
-        System.out.println("Do you have a question for Bob?");
+        System.out.println("Do you have a question for java1.Bob?");
         Scanner scanner = new Scanner(System.in);
         String userInput = scanner.next();
         if (userInput.contains("!")) {

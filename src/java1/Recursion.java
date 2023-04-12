@@ -1,3 +1,5 @@
+package java1;
+
 public class Recursion {
     // Always want to pass the lower value of its self so that it has a way
     // to get out of the recursion loop
