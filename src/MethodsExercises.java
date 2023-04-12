@@ -33,6 +33,13 @@ public class MethodsExercises {
     public static int multiplication (int num1, int num2) {
         return num1 * num2;
     }
+    public static int multiplicationRecursion (int num1, int num2) {
+        int total = num1;
+        if (num2 == 0) {
+            return 0;
+        }
+        return total + multiplication(num1, num2 - 1);
+    }
 
     // Exercise 2:
     public static int getInteger(int min, int max) {
