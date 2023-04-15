@@ -1,5 +1,3 @@
-package util;
-
 public class Person {
     // Exercise 1:
     // private string name
@@ -21,6 +19,10 @@ public class Person {
     }
     public Person(String name) {
         this.name = name;
+    }
+
+    public Person() {
+
     }
 
     public static void main(String[] args) {

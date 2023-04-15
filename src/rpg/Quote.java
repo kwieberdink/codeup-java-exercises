@@ -2,16 +2,16 @@ package rpg;
 
 public class Quote {
 
-//    public static String randomQuote() {
+//    public static String randomQuote(){
 //        int randomNumber = (int) (Math.random() * 4) + 1;
-//        return switch (randomNumber) {
-//            case 1: return "\"Be the change you wish to see in the world.\" - Mahatma Gandhi";
-//            case 2: return "\"Success is not final, failure is not fatal: it is the courage to continue that counts.\" - Winston Churchill";
-//            case 3: return "\"Believe you can and you're halfway there.\" - Theodore Roosevelt";
-//            case 4: return "\"The only way to do great work is to love what you do.\" - Steve Jobs";
-//            default: return "";
-//        };
-//        return "";
+//        switch(randomNumber){
+//            case 1: return "Obsession is always there at the start of learning. Becoming obsessed with something is what allows you to learn, to develop a habit, turn it into a routine.";
+//            case 2: return "The real voyage of discovery consists not in seeking new landscapes, but in having new eyes";
+//            case 3: return "My destination is no longer a place, rather a new way of seeing.";
+//            case 4: return "If a little dreaming is dangerous, the cure for it is not to dream less, but to dream more, to dream all the time";
+//            default: return "When torrential water tosses boulders, it is because of its momentum; when the strike of a hawk breaks the body of its prey, it is because of timing. Thus the momentum of one skilled in war is overwhelming, their attack precisely regulated. Their potential is that of a fully drawn crossbow; their timing, the release of the trigger.";
+//        }
 //    }
+//}
 
 }

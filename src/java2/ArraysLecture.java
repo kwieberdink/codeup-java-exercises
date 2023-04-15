@@ -4,6 +4,13 @@ import rpg.Monster;
 import java.util.Arrays;
 
 public class ArraysLecture {
+
+    public static Monster[] addMonster(Monster[] monstersArray, Monster newMonster) {
+        Monster[] newMonsterArray = Arrays.copyOf(monstersArray, monstersArray.length + 1);
+        newMonsterArray[newMonsterArray.length - 1] = newMonster;
+        return newMonsterArray;
+    }
+
     public static void main(String[] args) {
         // Declaring the size of the array
         // Once you declare the size of the array, then you are unable to add additional objects to the array
@@ -71,6 +78,14 @@ public class ArraysLecture {
         for(Monster monster : monsters) {
             System.out.printf("%s has %d hit points%n", monster.getName(), monster.getHitPoints());
         }
+
+        Monster cloaker = new Monster("Cloaker", 14, 78, 10);
+        Monster[] newMonsterArray = ArraysLecture.addMonster(monsters, cloaker);
+        for (Monster monster : newMonsterArray) {
+            System.out.println(monster.getName());
+        }
+
+
 
 
 
