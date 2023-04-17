@@ -1,6 +1,6 @@
 // Inheritance and Polymorphism Lecture: mini-exercise
 
-package birds;
+package Vehicles;
 
 public class Vehicle {
 

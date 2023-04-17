@@ -1,6 +1,7 @@
 // Inheritance and Polymorphism Lecture: mini-exercise
 
-package birds;
+package Vehicles;
 
-public class Mustang extends Vehicle{
+public class Car extends Vehicle {
+
 }

@@ -24,4 +24,11 @@ public class Bird {
         System.out.println("Laying an egg.");
     }
 
+    public Bird(){
+        System.out.println("New bird created!");
+    }
+
+    public Bird(String name) {
+        this.name = name;
+    }
 }
