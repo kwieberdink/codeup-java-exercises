@@ -25,6 +25,16 @@ public class Vehicle {
     }
 // SETTER/GETTER END
 
+
+    public Vehicle() {
+
+    }
+
+    public Vehicle(String name, String sound) {
+        this.name = name;
+        this.sound = sound;
+    }
+
     public void makeNoise(){
         System.out.println("vroooooom vroom");
     }

@@ -1,5 +1,7 @@
 package rpg;
 
+import java.util.ArrayList;
+
 public class RPG {
 
     public static void main(String[] args) {
@@ -21,6 +23,8 @@ public class RPG {
 
         int d20roll = D20.rolld20();
         System.out.println(d20roll);
+
+        ArrayList<Monster> monsterList = new ArrayList<>();
     }
 
 }
