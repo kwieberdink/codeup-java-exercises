@@ -33,7 +33,7 @@ public class GradesApplication {
 
         Map <String, Student> studentMap = Map.ofEntries(
                 entry("bologna-sandwich", kaeden),
-                entry("Banana_Buster_26", quintyn),
+                entry("quintyncode", quintyn),
                 entry("1600_pen_drive", matthew),
                 entry("java-fanatic", javier)
         );

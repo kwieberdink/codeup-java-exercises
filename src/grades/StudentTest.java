@@ -25,8 +25,6 @@ public class StudentTest {
             System.out.printf("%s has a grade average of %.0f%n", kiddos.getName(), kiddos.getGradeAverage() );
         }
 
-
-
     }
 
 }
